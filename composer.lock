@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "da9b7a1dc1dd923105198c572cc7df8d",
+    "content-hash": "13976219fc6d28ea0a96efbcb353300f",
     "packages": [
         {
             "name": "brick/math",
@@ -1049,6 +1049,51 @@
                 }
             ],
             "time": "2023-12-03T19:50:20+00:00"
+        },
+        {
+            "name": "jturazzi/laravel-database-informix",
+            "version": "1.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/jturazzi/laravel-database-informix.git",
+                "reference": "b7aa94aa000a35f9620be6868aa85f20eee96318"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/jturazzi/laravel-database-informix/zipball/b7aa94aa000a35f9620be6868aa85f20eee96318",
+                "reference": "b7aa94aa000a35f9620be6868aa85f20eee96318",
+                "shasum": ""
+            },
+            "require": {
+                "guzzlehttp/guzzle": "^7.8",
+                "illuminate/database": "10.*|11.*|12.*",
+                "illuminate/encryption": "10.*|11.*|12.*",
+                "illuminate/pagination": "10.*|11.*|12.*",
+                "illuminate/support": "10.*|11.*|12.*",
+                "php": "^8.1"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "jturazzi\\": "src/jturazzi"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jérémy TURAZZI",
+                    "email": "jeremy@trz.fr"
+                }
+            ],
+            "description": "Informix Database driver for Laravel 10 11",
+            "support": {
+                "issues": "https://github.com/jturazzi/laravel-database-informix/issues",
+                "source": "https://github.com/jturazzi/laravel-database-informix/tree/1.0.1"
+            },
+            "time": "2024-03-16T09:05:31+00:00"
         },
         {
             "name": "laravel/framework",
